@@ -1,0 +1,1 @@
+!function(o){"use strict";o((function(){const t=o('[data-bs-toggle="popover"]');t.attr("tabindex","-1"),t.popover({trigger:"focus"}),o("body").on("mousedown",".popover",(function(o){o.preventDefault()})),o("body").on("mousedown",'[data-bs-toggle="popover"]',(function(t){const e=o(t.target);e.popover(e.attr("aria-describedby")?"hide":"show")}))}))}(jQuery);

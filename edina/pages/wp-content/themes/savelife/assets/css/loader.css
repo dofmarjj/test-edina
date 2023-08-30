@@ -1,0 +1,44 @@
+.ba-loader {
+  position: relative;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity: 0.8; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 0.8; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity: 0.8; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 0.8; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity: 0.8; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 0.8; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity: 0.8; }
+  50%  { opacity: 0.4; }
+  100% { opacity: 0.8; }
+}
+
+.ba-loader.en-lang-loader::before {
+  background: url(/wp-content/themes/savelife/assets/images/Logo_eng.svg) center center no-repeat, #f0f0f0;
+  background-size: 40%;
+}
+
+.ba-loader::before {
+  display: block;
+  content: " ";
+  position: absolute;
+  background: url(/wp-content/themes/savelife/assets/images/Logo_ukr.svg) center center no-repeat, #fff;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.75; */
+  /*animation: flickerAnimation 3s infinite;*/
+  z-index: 50;
+  background-size: 40%;
+}

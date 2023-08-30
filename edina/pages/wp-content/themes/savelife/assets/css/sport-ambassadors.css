@@ -1,0 +1,485 @@
+/* Kharkiv Tone font */
+@font-face {
+  font-family: 'kharkiv-tone';
+  src: url('../wp-content/themes/savelife/assets/fonts/kharkiv-tone.ttf') format('truetype'), /* Modern Browsers */
+  url('../wp-content/themes/savelife/assets/fonts/kharkiv-tone.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+
+header {
+  background: linear-gradient(73.16deg, #809699 -8.35%, #D9E5F3 101.28%);
+  position: initial !important;
+}
+
+header .navbar-brand img {
+  width: auto !important;
+}
+
+header .bg-container {
+  background-position: calc(50% - 350px) bottom;
+  background-repeat: no-repeat;
+}
+
+header .container {
+	background-position: bottom left;
+}
+
+header .header-logo,
+header .project-logo {
+  margin-top: 56px;
+}
+
+header .submit-time {
+  color: #4B4B4B;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 56px;
+}
+
+header .submit-time div {
+  padding: 0 8px;
+  width: 70px;
+}
+
+header .submit-time span {
+  font-size: 19px;
+  margin-bottom: 56px;
+  line-height: 10px;
+}
+
+header .submit-block {
+  margin-top: 210px;
+  margin-bottom: 56px;
+}
+
+header .submit-block .submit-block-description {
+  max-width: 400px;
+  margin-left: 180px;
+}
+
+header .submit-block a {
+  min-width: 144px;
+}
+
+.landing-page.sport-ambassadors {
+  background-color: #fff;
+  color: #333333;
+}
+
+.ambassador-main .project-target-section {
+  background-color: #0E0E0E;
+  color: #fff;
+  padding: 48px 0 80px;
+}
+
+.ambassador-main .project-target-section .section-title-border {
+  border-top: 1px solid #FFFFFF;
+  width: 56px;
+  height: 1px;
+  margin-right: 45px;
+  margin-top: 26px;
+}
+
+.ambassador-main .project-target-section h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 62px;
+  text-transform: uppercase;
+}
+
+.ambassador-main .project-target-section .target-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ambassador-main .project-target-section .target h3 {
+  color: #A0A0A0;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 62px;
+  margin-bottom: 40px;
+}
+
+.ambassador-main .project-target-section .target-1 {
+  background: linear-gradient(90deg, #383A39 0%, #444D46 100%);
+}
+
+.ambassador-main .project-target-section .target-2 {
+  background: linear-gradient(90deg, #444D46 0%, #6A8557 100%);
+}
+
+.ambassador-main .project-target-section .target-3 {
+  background: linear-gradient(90deg, #6A8557 0%, #95A42C 100%);
+}
+
+.ambassador-main .project-target-section .target-1,
+.ambassador-main .project-target-section .target-2,
+.ambassador-main .project-target-section .target-3 {
+  padding: 195px 32px 40px 32px;
+}
+
+.ambassador-main .project-moto-section .running-man {
+  padding-top: 80px;
+  padding-bottom: 150px;
+  transition: all linear 0.5s;
+  max-width: 100%;
+}
+
+.ambassador-main .project-moto-section .running-man.running-man-hide{
+  position: absolute;
+  top: -55px;
+  left: -20px;
+  transform: scale(0.1);
+  height: 115px;
+}
+
+.ambassador-main  .project-moto-section h3 {
+  font-size: 63px;
+  font-weight: 400;
+  line-height: 107px;
+  color: #000000;
+  margin-bottom: 140px;
+}
+
+.ambassador-main .project-moto-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4B4B4B;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ambassador-main .project-moto-section .project-moto-section-criteria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+
+.ambassador-main .project-moto-section .criteria {
+  margin: 2px;
+  border-left: 1px solid #D4D4D4;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ambassador-main .project-moto-section .criteria .criteria-container {
+  padding: 20px;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+.ambassador-main .project-moto-section .project-moto-section-criteria .criteria:last-child {
+ justify-self: center;
+ grid-column-start: span 2;
+ border: none;
+ text-align: center;
+}
+
+.ambassador-main .border-none {
+  border: none !important;
+  background: none !important;
+}
+
+.ambassador-main .running-man-small-container {
+  display: inline-block;
+  width: 220px;
+  height: 115px;
+}
+
+footer {
+  background: linear-gradient(80.32deg, #323232 -7.62%, #353736 5.93%, #3E433F 26.54%, #516456 46.56%, #6B8757 69.53%, #91A330 87.19%, #AAA916 105.45%);;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.sport-ambassadors .ps-120 {
+  padding-left: 120px;
+}
+
+.sport-ambassadors .pe-120 {
+  padding-right: 120px;
+}
+
+.sport-ambassadors .border-left {
+  border-left: 1px solid #D4D4D4 !important;
+}
+
+.sport-ambassadors .border-bottom {
+  border-bottom: 1px solid #D4D4D4 !important;
+}
+
+@media (max-width: 1399x) {
+  .ambassador-main .project-moto-section h3 {
+    font-size: 43px;
+    line-height: 73px;
+  }
+}
+
+/* tablet */
+@media (max-width: 1180px) {
+  .ambassador-main .project-moto-section h3 {
+    color: #000000;
+    font-size: 43px;
+    line-height: 73px;
+    margin-bottom: 104px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .container {
+    background-position: bottom ;
+  }
+
+  header .bg-container {
+    background-position: calc(50% - 350px) bottom;
+    background-size: contain;
+  }
+
+  header .header-logo {
+    width: 30%;
+  }
+
+  header .project-logo {
+    margin-top: 160px;
+    width: 70%;
+  }
+
+  header .submit-block {
+    flex-direction: column;
+    margin-left: 195px;
+    margin-bottom: 130px;
+  }
+
+  header .submit-block a {
+    order: 2;
+    max-width: 144px;
+    margin-bottom: 40px;
+  }
+
+  header .submit-block .submit-block-description {
+    order: 1;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 84px;
+  }
+
+  header .submit-block .submit-block-description p,
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ambassador-main .project-target-section .target-1,
+  .ambassador-main .project-target-section .target-2,
+  .ambassador-main .project-target-section .target-3 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .ambassador-main .project-target-section .target p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ambassador-main .project-moto-section h3 {
+    color: #000000;
+    font-size: 43px;
+    line-height: 73px;
+    margin-bottom: 104px;
+  }
+
+  .ambassador-main .project-moto-section p {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .submit-section {
+    margin-top: 42px;
+  }
+
+  footer {
+    margin-top: 88px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  header .header-logo {
+    width: auto;
+    margin-top: 32px;
+  }
+  header .project-logo {
+    margin-top: 56px;
+    width: auto;
+  }
+}
+
+/* mobile */
+@media (max-width: 769px) {
+  header .bg-container {
+    background-position: calc(50% - 245px) bottom;
+    min-height: 930px;
+    background-size: auto;
+  }
+
+  header .submit-block .submit-block-description,
+  .project-moto-section .running-man,
+  .submit-section {
+    display: none !important;
+  }
+
+  .ambassador-main .container .submit-block-description {
+    display: block !important;
+  }
+
+  .ambassador-main .submit-block .submit-block-description {
+    display: none;
+  }
+
+  .ambassador-main .submit-block .submit-block-description p {
+    font-size: 14px;
+  }
+
+  .ambassador-main .project-target-section {
+    padding-top: 0;
+  }
+
+  .ambassador-main .project-target-section .section-title-border {
+    margin-top: 40px;
+  }
+
+  .ambassador-main .project-target-section .section-title {
+    padding: 0;
+  }
+
+  .ambassador-main .project-target-section h2 {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  .ambassador-main .project-target-section .target-grid {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
+
+  .ambassador-main .project-target-section .target p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .ambassador-main .project-target-section .target-1,
+  .ambassador-main .project-target-section .target-2,
+  .ambassador-main .project-target-section .target-3 {
+    padding: 40px 16px;
+    height: 550px;
+  }
+
+  .ambassador-main .running-man-small-container {
+    display: none;
+  }
+
+  .ambassador-main .project-moto-section h3 {
+    font-size: 24px;
+    line-height: inherit;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+
+  .ambassador-main .project-moto-section .running-mobile {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: block !important;
+  }
+
+  .ambassador-main .project-moto-section .project-moto-section-criteria {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .project-moto-section-criteria .criteria-1 {
+    order: 1;
+  }
+
+  .project-moto-section-criteria .criteria-2 {
+    order: 3;
+  }
+
+  .project-moto-section-criteria .criteria-3 {
+    order: 2;
+  }
+
+  .project-moto-section-criteria .criteria-4 {
+    order: 4;
+  }
+
+  .project-moto-section-criteria .criteria-5 {
+    order: 5;
+  }
+
+  .ambassador-main .project-moto-section .project-moto-section-criteria .criteria {
+    border-left: none !important;
+    padding: 0;
+    justify-content: start;
+    border-bottom: 1px solid #D4D4D4 !important;
+  }
+
+  .ambassador-main .project-moto-section .project-moto-section-criteria .criteria-container,
+  .ambassador-main .project-moto-section .project-moto-section-criteria .criteria-container.border-none {
+    padding: 0;
+  }
+  .ambassador-main .project-moto-section .project-moto-section-criteria .criteria:last-child {
+    width: 100%;
+    border-bottom: none !important;
+    text-align: left;
+  }
+
+  .ambassador-main .project-moto-section .project-moto-section-criteria .criteria:last-child .criteria-container,
+  .ambassador-main .project-moto-section .criteria .criteria-container {
+    border-bottom: none !important;
+  }
+
+  .ambassador-main .project-moto-section p {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  footer {
+    padding-top: 33px;
+    margin-top: 20px !important;
+  }
+
+  footer .row div.col-md-7 div {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  header .bg-container {
+    background-position: calc(50% - 180px) bottom;
+    min-height: 950px;
+  }
+
+  .ambassador-main .project-target-section .section-title-border {
+    margin-top: 40px;
+  }
+}
